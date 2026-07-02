@@ -7,7 +7,7 @@ public class Form1 extends JFrame {
         this.setSize(300,300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
-        this.add(new CreateBall());
+        this.add(new RollingBall());
         this.setVisible(true);
     }
 }
